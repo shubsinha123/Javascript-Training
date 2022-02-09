@@ -1,0 +1,27 @@
+var num=parseInt(prompt("Enter number :"));
+
+if(num%2===0){
+console.log("Even Number");
+}
+else{
+console.log("Odd Number");
+}
+
+
+
+
+
+var num=parseInt(prompt("Enter number :"));
+for(let i=1;i<=10;i++){
+    console.log(num +" X "+i+" = "+num*i);
+}
+
+
+
+var total=0
+var num=0
+while(num>-1){
+    total+=num
+    num=parseInt(prompt("Enter number :"))
+}
+console.log(total)
